@@ -24,8 +24,12 @@ export const navItems = [
   },
   {
     href: '/certificates',
-    text: 'Participation Certificates',
+    text: 'Certificates',
   },
+  {
+    href: '/email',
+    text: 'Bulk Email',
+  }
   // {
   //   href: '/sponsors',
   //   text: 'Sponsors',
