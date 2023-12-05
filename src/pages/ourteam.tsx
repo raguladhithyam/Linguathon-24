@@ -1,73 +1,93 @@
 import React from 'react'
-import {  profile, } from '../images/team'
+import {  profile, ragul , mani , nalini , abar , kani, laks , nik, kums } from '../images/team'
 import Image from 'next/image'
-import { twitter, linkedin, github } from '../images/icons';
+import { instagram, linkedin, github } from '../images/icons';
 import NavMenu from '@/components/NavMenu';
 import { useRouter } from 'next/router';
 
 
 const teamDetails = [
     {
-        name: 'name',
-        image: profile,
-        year: "year - dept",
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
-        instagram: 'https://www.instagram.com/__.munavvar.__/',
+        name: 'Ragul Adhithya M President',
+        image: ragul,
+        year: "III - IT",
+        linkedin: 'https://www.linkedin.com/in/raguladhithyam/',
+        github: 'https://github.com/raguladhithyam',
+        instagram: 'https://www.instagram.com/ragul_2003/',
 
     },
     {
-        name: 'name',
-        image: profile,
-        year: "year - dept",
-        linkedin: 'https://www.linkedin.com/in/',
+        name: 'Manimaran T N Vice President',
+        image: mani,
+        year: "III - EEE",
+        linkedin: 'https://www.linkedin.com/in/manimaran-t-n-248b12230/',
         github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
         instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'name',
+        name: 'Rasheqqa A A Treasurer',
         image: profile,
-        year: "year - dept",
+        year: "III - CIVIL",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
         instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'name',
-        image: profile,
-        year: "year - dept",
+        name: 'Nalini Priya D Secretary',
+        image: nalini,
+        year: "III - EEE",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
         instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'name',
-        image: profile,
-        year: "year - dept",
+        name: 'Abarna V - Joint Secretary',
+        image: abar,
+        year: "III - CSE",
+        linkedin: 'https://www.linkedin.com/in/abarnav',
+        github: 'https://github.com/abarnavelusamy',
+        instagram: 'https://www.instagram.com/abarna_0202',
+
+    },
+    {
+        name: 'Kanishka T Joint Treasurer',
+        image: kani,
+        year: "III - CSE",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
         instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'name',
-        image: profile,
-        year: "year - dept",
+        name: 'Lakshan S Social Media Lead',
+        image: laks,
+        year: "III - EEE",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
         instagram: 'https://www.instagram.com/',
 
     },
+    {
+        name: 'Nikhil V Visual Design Lead',
+        image: nik,
+        year: "III - EEE",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        instagram: 'https://www.instagram.com/',
 
+    },
+    {
+        name: 'Kumutha S Documentation Lead',
+        image: kums,
+        year: "III - EEE",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        instagram: 'https://www.instagram.com/',
+
+    },
 ]
 const Ourteam = () => {
     const router = useRouter();
@@ -94,9 +114,9 @@ const Ourteam = () => {
                                             <h1 className="text-black font-bold">{item.name}</h1>
                                             <p className='text-black'>{item.year}</p>
                                             <div className="flex justify-center mt-5 space-x-5">
-                                                <a href={item.twitter} target="_blank" rel="noopener noreferrer" className="inline-block text-white">
-                                                    <span className="sr-only">Twitter</span>
-                                                    <Image src={twitter} alt="twitter" />
+                                                <a href={item.instagram} target="_blank" rel="noopener noreferrer" className="inline-block text-white">
+                                                    <span className="sr-only">Instagram</span>
+                                                    <Image src={instagram} alt="twitter" />
                                                 </a>
                                                 <a href={item.github} target="_blank" rel="noopener noreferrer" className="inline-block text-gray-400">
                                                     <span className="sr-only">GitHub</span>

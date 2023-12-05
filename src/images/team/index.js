@@ -1,8 +1,10 @@
-import munavvar from './munavvar1.jpg';
-import thanay from './thanay.jpeg';
-import allok from './allok.jpg';
-import mash from './mash.jpg';
-import mehfooz from './mehfooz.jpeg';
-// import mash from './mash.jpg';
+import ragul from './ragul.jpeg';
+import abar from './abar.jpg';
+import nalini from './nalini.jpeg';
+import mani from './mani.jpeg';
+import kani from './kani.jpeg';
+import laks from './laks.jpeg';
+import nik from './nik.jpeg';
+import kums from './kums.jpeg';
 import profile from './download.png'
-export { munavvar, thanay, allok, mehfooz, profile, mash }
+export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums}

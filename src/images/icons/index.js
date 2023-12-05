@@ -1,9 +1,9 @@
-import twitter from './twitter.svg';
+import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
 import github from './github.svg';
 
 export {
-    twitter,
+    instagram,
     linkedin,
     github
 }
