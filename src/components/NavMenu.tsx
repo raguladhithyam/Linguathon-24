@@ -16,20 +16,16 @@ export const navItems = [
   },
   {
     href: '/events',
-    text: 'Event',
-  },
-  {
-    href: '/gallery',
-    text: 'Gallery',
+    text: 'Events',
   },
   {
     href: '/ourteam',
     text: 'Our Team',
   },
-  {
-    href: '/sponsors',
-    text: 'Sponsors',
-  }
+  // {
+  //   href: '/sponsors',
+  //   text: 'Sponsors',
+  // }
 ];
 
 const NavMenu = () => {

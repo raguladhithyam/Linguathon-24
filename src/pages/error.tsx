@@ -16,7 +16,7 @@ const Error = () => {
                     </svg>
                     <div className="text-center">
                         <h3 className="text-2xl font-semibold text-center text-gray-800">Error Occurred</h3>
-                        <p className="text-gray-600 my-2">Sorry, an error occurred during the payment process.</p>
+                        <p className="text-gray-600 my-2">Sorry, an error occurred..</p>
                         <p className="text-gray-600">Please try again later.</p>
                         <div className="py-10 text-center">
                             <Link href="/" className="px-12 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3">

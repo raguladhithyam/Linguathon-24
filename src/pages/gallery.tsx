@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { image1, image2, image12, image14, image15, image3, image4, image5, image6, image7, image8, image9, image16, image17, image18, image19, image20, image21, } from '../images/gallery'
+import { image1, image2, image12, image14, image15, image3, image4, image5, image6, image7, image8, image9, image16, image17, image18, image19, image20, image21, image22, } from '../images/gallery'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import NavMenu from '@/components/NavMenu'
@@ -18,7 +18,7 @@ const images = [
     },
     {
         image: image3,
-        className: 'wide'
+        className: ''
     },
     {
         image: image5,
@@ -76,6 +76,10 @@ const images = [
         image: image19,
         className: ''
     },
+    {
+        image: image22,
+        className: ''
+    },
 ]
 
 const Gallery = () => {
@@ -100,7 +104,7 @@ const Gallery = () => {
             <section className='p-10 md:p-20'>
                 <div className="   md:px-12 xl:px-6">          <div className="relative pt-36 ">
                     <div className="lg:w-2/3 md:text-center  mx-auto">
-                        <h1 className="text-white font-bold text-4xl md:text-6xl xl:text-7xl">GLIMPSES OF <span className="text-primary text-green-700">YENSPLASH 2022.</span></h1>
+                        <h1 className="text-white font-bold text-4xl md:text-6xl xl:text-7xl">Glimpses of <span className="text-primary text-green-700">Linguathon 2023</span></h1>
 
                     </div>
                 </div>

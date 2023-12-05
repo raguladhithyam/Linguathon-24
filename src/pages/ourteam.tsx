@@ -1,5 +1,5 @@
 import React from 'react'
-import {  mehfooz, munavvar, thanay, profile,mash } from '../images/team'
+import {  profile, } from '../images/team'
 import Image from 'next/image'
 import { twitter, linkedin, github } from '../images/icons';
 import NavMenu from '@/components/NavMenu';
@@ -8,9 +8,9 @@ import { useRouter } from 'next/router';
 
 const teamDetails = [
     {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
-        year: "3'rd year CSE",
+        name: 'name',
+        image: profile,
+        year: "year - dept",
         linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
         github: 'https://github.com/MunavvarSinan',
         twitter: 'https://twitter.com/SinanMunavvar',
@@ -18,41 +18,9 @@ const teamDetails = [
 
     },
     {
-        name: 'Thanay',
-        image: thanay,
-        year: "4'th year CSE",
-        linkedin: 'https://www.linkedin.com/in/',
-        github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
-        instagram: 'https://www.instagram.com/',
-
-    },
-    {
-        name: 'Vithesh',
-        image: mash,
-        year: "4'th year CSE",
-        linkedin: 'https://www.linkedin.com/in/',
-        github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
-        instagram: 'https://www.instagram.com/',
-
-    },
-    {
-        name: 'Mehfooz',
-        image: mehfooz,
-        year: "4'th year CSE",
-
-        linkedin: 'https://www.linkedin.com/in/',
-        github: 'https://github.com/',
-        twitter: 'https://twitter.com/',
-        instagram: 'https://www.instagram.com/',
-
-    },
-    {
-        name: 'Vikas',
+        name: 'name',
         image: profile,
-        year: "4'th year CSE",
-
+        year: "year - dept",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
         twitter: 'https://twitter.com/',
@@ -60,9 +28,39 @@ const teamDetails = [
 
     },
     {
-        name: 'Vishal',
+        name: 'name',
         image: profile,
-        year: "4'th year CSE",
+        year: "year - dept",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
+
+    },
+    {
+        name: 'name',
+        image: profile,
+        year: "year - dept",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
+
+    },
+    {
+        name: 'name',
+        image: profile,
+        year: "year - dept",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
+
+    },
+    {
+        name: 'name',
+        image: profile,
+        year: "year - dept",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
         twitter: 'https://twitter.com/',

@@ -12,7 +12,7 @@ const Header = () => {
                     <video autoPlay muted loop
                         className='absolute inset-0 w-full h-full object-cover'
                         style={{ position: 'fixed', width: '100%', height: '100vh', objectFit: 'cover', zIndex: -1, opacity: .3 }}>
-                        <source src="/backround_video.mp4" type="video/mp4" />
+                        <source src="/background_video.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className="flex items-center justify-center">
@@ -20,6 +20,7 @@ const Header = () => {
                         <div className="relative h-0 pb-[100%] mt-[100px] md:-mt-10 ">
                             <Image src={logo_compressed} alt="logo" className="absolute inset-0 w-full h-full object-contain" />
                         </div>
+                        <br></br><br></br><br></br>
                         <div className="relative h-0">
                             <Image src={logoText} alt="logo text" className="mx-auto w-full h-auto object-contain -mt-[100px] sm:-mt-[10px] md:-mt-[250px] lg:-mt-[300px]" />
                         </div>

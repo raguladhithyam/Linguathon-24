@@ -19,6 +19,7 @@ import image18 from './18.jpg';
 import image19 from './19.jpg';
 import image20 from './20.jpg';
 import image21 from './21.jpg';
+import image22 from './22.jpg';
 
 
 
@@ -43,5 +44,6 @@ export {
     image18,
     image19,
     image20,
-    image21
+    image21,
+    image22
 }
