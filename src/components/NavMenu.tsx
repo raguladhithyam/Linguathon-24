@@ -55,11 +55,8 @@ const NavMenu = () => {
   }, [])
 
   return (
-    <div className=' text-white'>
-      <div
-        className='flex items-center justify-between max-w-6xl lg:max-w-[72rem] xl:max-w-6xl px-4 py-6 mx-auto sm:px-6
-       '
-      >
+    <div className='fixed top-0 z-50 w-full  text-white'>
+  <div className='flex items-center justify-between max-w-6xl lg:max-w-[72rem] xl:max-w-6xl px-4 py-6 mx-auto sm:px-6'>
         <div className='flex justify-start lg:w-0  transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer  '>
           <span className='sr-only'>Logo</span>
           <NextLink href='/' passHref>
@@ -85,7 +82,7 @@ const NavMenu = () => {
           ))}
           <>
             {email && !userPaid || userPaid ? (
-              <form action="https://yensplah-payment-backend.onrender.com/api/payment/checkout_sessions" method="POST" className='sm:hidden hidden  lg:block bg-[#EACD69] hover:bg-white text-black font-bold py-2 px-4 rounded-full' >
+              <form action="" method="POST" className='sm:hidden hidden  lg:block bg-[#EACD69] hover:bg-white text-black font-bold py-2 px-4 rounded-full' >
                 {/* <ThemeToggle /> */}
                 <input type="hidden" name="email" value={email} />
                 <button type="submit" role="link">
@@ -143,7 +140,7 @@ const NavMenu = () => {
                 ))}
                 <li>
                   {email && !userPaid || userPaid ? (
-                    <form action="https://yensplah-payment-backend.onrender.com/api/payment/checkout_sessions" method="POST" >
+                    <form action="" method="POST" >
                       <input type="hidden" name="email" value={email} />
                       <button type="submit" role="link" className='hover:text-lightGreen dark:hover:text-emerald-500 bg-[#EACD69] hover:text-white text-black font-bold py-2 px-4 rounded-full text-center'>
                         Buy tickets

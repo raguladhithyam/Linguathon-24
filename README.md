@@ -4,12 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+```
+CMD to run the code from folder
+First install nvm from github ( copy content of install.sh file to a custom file then exec bash and source `./bashrc`)
+nvm install 16.20.2
+npm run build
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
