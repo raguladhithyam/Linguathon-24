@@ -22,6 +22,10 @@ export const navItems = [
     href: '/ourteam',
     text: 'Our Team',
   },
+  {
+    href: '/certificates',
+    text: 'Participation Certificates',
+  },
   // {
   //   href: '/sponsors',
   //   text: 'Sponsors',
@@ -89,7 +93,7 @@ const NavMenu = () => {
                   Buy Tickets
                 </button>
               </form>
-            ) : <NextLink href={'https://www.raguladhithya.in'} className='sm:hidden hidden  lg:block  bg-[#EACD69] hover:bg-white text-black font-bold py-2 px-4 rounded-full' >
+            ) : <NextLink href={'https://rzp.io/l/Zsa9U3vBJx'} className='sm:hidden hidden  lg:block  bg-[#EACD69] hover:bg-white text-black font-bold py-2 px-4 rounded-full' >
 
               <h1>Register</h1>
             </NextLink>}
@@ -147,7 +151,7 @@ const NavMenu = () => {
                       </button>
                     </form>
                   ) : (
-                    <NextLink href='https://raguladhithya.in'>
+                    <NextLink href='https://rzp.io/l/Zsa9U3vBJx'>
                       <p className='hover:text-lightGreen dark:hover:text-emerald-500 bg-[#EACD69] hover:text-white text-black font-bold py-2 px-4 rounded-full text-center'>
                         Register
                       </p>
