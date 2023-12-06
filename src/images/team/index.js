@@ -6,5 +6,6 @@ import kani from './kani.jpeg';
 import laks from './laks.jpeg';
 import nik from './nik.jpeg';
 import kums from './kums.jpeg';
+import rashi from './rashi.jpg';
 import profile from './download.png'
-export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums}
+export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums , rashi}
