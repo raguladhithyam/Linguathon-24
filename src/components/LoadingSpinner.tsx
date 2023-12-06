@@ -1,10 +1,15 @@
+import React from 'react';
+import { GridLoader } from 'react-spinners';
+import { useRouter } from 'next/router';
+
 const LoadingSpinner = () => {
+  const router = useRouter();
+
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="animate-spin h-8 w-8 border-4  border-t-4 border-[#EACD69] rounded-full"></div>
+      <GridLoader color="#36d7b7" />
     </div>
-
   );
 };
 
-export default LoadingSpinner 
+export default LoadingSpinner;
