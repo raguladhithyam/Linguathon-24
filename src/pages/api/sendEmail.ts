@@ -22,7 +22,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       };
 
       // Sending email
-      const info = await transporter.sendMail(mailOptions);
+      // const info = await transporter.sendMail(mailOptions);
+      const info = await new Promise((resolve, reject) => {
+        transporter.sendMail(mailOptions, (err, info) => {
+          if (err) {
+            console.error(err);
+            reject(err);
+          } else {
+            resolve(info);
+          }
+        });
+      });
 
       res.status(200).json({ message: 'Email sent successfully', info });
     } catch (error: any) {

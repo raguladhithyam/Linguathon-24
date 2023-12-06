@@ -9,25 +9,16 @@ const Email = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => { // Explicitly define the type
     e.preventDefault();
-    const toAddresses = to.split(',').map((address) => address.trim());
-  
-  const xhr = new XMLHttpRequest();
-  xhr.open('POST', '/api/sendEmail', true);
-  xhr.setRequestHeader('Content-Type', 'application/json');
+    try {
+        const toAddresses = to.split(',').map((address) => address.trim());
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === XMLHttpRequest.DONE) {
-      if (xhr.status === 200) {
-        console.log(xhr.responseText);
-        alert('Email Sent Successfully \n\nPress OK');
-        window.location.href = '/';
-      } else {
-        console.error('Error sending email:', xhr.statusText);
-      }
+        const response = await axios.post('/api/sendEmail', { to: toAddresses, subject, message });
+      console.log(response.data);
+      alert('Email Sent Successfully \n\nPress OK')
+      window.location.href = '/'
+    } catch (error) {
+      console.error('Error sending email:', error);
     }
-  };
-
-  xhr.send(JSON.stringify({ to: toAddresses, subject, message }));
   };
 
   return (
