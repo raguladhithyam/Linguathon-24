@@ -25,7 +25,7 @@ export default function PreviewPage() {
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
               <div className="relative pt-36 ml-auto">
                 <div className="lg:w-2/3 text-justify mx-auto">
-                  <h1 className="text-white dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Linguathon 24<span className="text-primary text-[#EACD69]"> 2024.</span></h1>
+                  <h1 className="text-white dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Linguathon<span className="text-primary text-[#EACD69]"> 2024.</span></h1>
                   <h4 className="mt-8 text-white dark:text-gray-300">
                   Linguathon, an annual one-day intercollegiate event, is a celebration of language and literature organized by Land of Lexicons Club - Kumaraguru Institutions. The event features a variety of engaging quizzes, trivia games, debates, slam poetry sessions, and storytelling sessions, all designed to challenge and inspire participants. Linguathon provides a platform for students to showcase their linguistic skills, explore the depths of literature, and discover the transformative power of language. The event is open to students from all colleges and universities, and it is sure to be an unforgettable experience for all who attend.</h4>
                   <div className='flex justify-between mt-10'>
