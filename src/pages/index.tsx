@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import Header from '@/components/Header';
 import Image from 'next/image';
@@ -6,16 +6,57 @@ import Image from 'next/image';
 import Container from '@/components/Layout';
 import Gallery from './gallery';
 import Events from './events';
+
 import { useRouter } from 'next/router';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/database';
+import React, { useState, useEffect } from 'react';
+import Popup from './popup';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDMCuUYkvMYiRHdtGCnw_Ai0VKyJ7YdCw8",
+  authDomain: "linguathon24.firebaseapp.com",
+  databaseURL: "https://linguathon24-default-rtdb.firebaseio.com",
+  projectId: "linguathon24",
+  storageBucket: "linguathon24.appspot.com",
+  messagingSenderId: "1039823568068",
+  appId: "1:1039823568068:web:ce9e5c8a6ac943dbf45d91"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 
 export default function PreviewPage() {
-  const router = useRouter();
-  const showNav = router.query.showNav;
-  return (
+  const [popupMessage, setPopupMessage] = useState('');
 
+  // Fetch message from the database using useEffect
+  useEffect(() => {
+    const fetchPopupMessage = async () => {
+      try {
+        const db = firebase.database();
+        const popupRef = db.ref('users/'); // Replace with your database path
+        const snapshot = await popupRef.get();
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+          
+          setPopupMessage(data.message); // Assuming the message is stored in 'message' key in the database
+        } else {
+          console.log('No data available');
+        }
+      } catch (error) {
+        console.error('Error fetching data: ', error);
+      }
+    };
+
+    fetchPopupMessage(); // Fetch the message when the component mounts
+  }, []);
+  return (
+    
     <>
+    <Popup message={popupMessage} />
       <Container>
+        
         <Header />
 
         <section className='mt-20 -pt-[50px]'>
@@ -52,10 +93,13 @@ export default function PreviewPage() {
           </div>
         </section>
         <div>
+        
           <Gallery />
           <Events headerShown={false} />
         </div>
       </Container >
+      
+      
     </>
 
   );

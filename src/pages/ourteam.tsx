@@ -1,5 +1,5 @@
 import React from 'react'
-import {  profile, ragul , mani , nalini , abar , kani, suji , nagul ,laks , nik, deepak, kums , rashi, sreejumam, aparnarani, farhan, hari, shagana , prithu , kirubashini , praveena , kavya, nandy, shru} from '../images/team'
+import {  profile, ragul , mani , karthik, sriram, nalini , abar , kani, suji , nagul ,laks , nik, deepak, kums , rashi, sreejumam, aparnarani, farhan, hari, shagana , prithu , kirubashini , praveena , kavya, nandy, shru} from '../images/team'
 import Image from 'next/image'
 import { instagram, linkedin, github } from '../images/icons';
 import NavMenu from '@/components/NavMenu';
@@ -108,7 +108,7 @@ const eventDetails = [
 const facDetails = [
     {
         name: 'Karthik S Executive Member',
-        image: profile,
+        image: karthik,
         year: "II - IT",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
@@ -126,7 +126,7 @@ const facDetails = [
     },
     {
         name: 'Sriram P K Executive Member',
-        image: profile,
+        image: sriram,
         year: "II - IT",
         linkedin: 'https://www.linkedin.com/in',
         github: 'https://github.com/',
