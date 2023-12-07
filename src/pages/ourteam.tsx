@@ -67,7 +67,7 @@ const docDetails = [
     {
         name: 'Praveena S Executive Member',
         image: praveena,
-        year: "II - AI & DS",
+        year: "II - EEE",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
         instagram: 'https://www.instagram.com/',
