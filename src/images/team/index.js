@@ -21,4 +21,5 @@ import praveena from './praveena.jpeg'
 import kavya from './kavya.jpg'
 import nagul from './nagul.jpg'
 import nandy from './nandy.jpeg'
-export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums , rashi, aparnarani, farhan, deepak, hari ,sreejumam , shagana, prithu , suji , kirubashini ,praveena , kavya, nagul , nandy}
+import shru from './shru.jpeg'
+export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums , rashi, aparnarani, farhan, deepak, hari ,sreejumam , shagana, prithu , suji , kirubashini ,praveena , kavya, nagul , nandy , shru}
