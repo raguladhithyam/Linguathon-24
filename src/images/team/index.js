@@ -13,4 +13,12 @@ import farhan from './farhan.jpg';
 import hari from './hari.jpeg'
 import sreejumam from './sreejumam.jpeg'
 import shagana from './shagana.jpeg'
-export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums , rashi, aparnarani, farhan, hari ,sreejumam , shagana}
+import prithu from './prithu.jpg'
+import deepak from './deepak.jpg'
+import suji from './suji.jpeg'
+import kirubashini from './kirubashini.jpeg'
+import praveena from './praveena.jpeg'
+import kavya from './kavya.jpg'
+import nagul from './nagul.jpg'
+import nandy from './nandy.jpeg'
+export { ragul, abar, nalini , mani,   profile , kani, laks , nik, kums , rashi, aparnarani, farhan, deepak, hari ,sreejumam , shagana, prithu , suji , kirubashini ,praveena , kavya, nagul , nandy}

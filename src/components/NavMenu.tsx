@@ -12,7 +12,7 @@ export const navItems = [
   },
   {
     href: '/about',
-    text: 'About Us',
+    text: 'About',
   },
   {
     href: '/events',
