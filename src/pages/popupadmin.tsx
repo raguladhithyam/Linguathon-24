@@ -3,6 +3,7 @@ import 'firebase/firestore'
 import firebase from 'firebase/compat/app'
 import 'firebase/database'
 import { getDatabase, ref, set } from "firebase/database";
+import Container from '@/components/Layout';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDMCuUYkvMYiRHdtGCnw_Ai0VKyJ7YdCw8",
@@ -32,13 +33,15 @@ const CreateMessagePage = () => {
       setMessage('');
 
       alert('Message saved successfully');
+      window.location.href = '/'
     } catch (error) {
       alert('Error adding document: ' + error);
     }
   };
 
-  // window.location.href = '/'
+  
   return (
+    <Container>
     <div className="min-h-screen flex justify-center items-center">
     <div className="bg-white p-8 rounded-md w-full max-w-[500px] h-full max-h-[500px] overflow-y-auto">
       <h1 className="text-3xl mb-4 text-black font-serif font-bold text-center">Custom Popup Form</h1>
@@ -66,6 +69,7 @@ const CreateMessagePage = () => {
       </form>
     </div>
   </div>
+  </Container>
   );
 };
 

@@ -15,7 +15,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       });
 
       const mailOptions = {
-        from: 'landoflexicons@gmail.com',
+        from: 'Linguathon 24 <landoflexicons@gmail.com>',
         to: to,
         subject: subject,
         text: message,

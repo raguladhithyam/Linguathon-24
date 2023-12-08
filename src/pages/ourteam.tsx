@@ -77,7 +77,7 @@ const docDetails = [
 
 const eventDetails = [
     {
-        name: 'Nalini Priya D Secretary',
+        name: 'Nalinipriya D Secretary',
         image: nalini,
         year: "III - EEE",
         linkedin: 'https://www.linkedin.com/in/',
