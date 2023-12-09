@@ -63,7 +63,7 @@ const NavMenu = () => {
   }, [])
 
   return (
-    <div className='fixed top-0 z-50 w-full  text-white'>
+    <div className='fixed top-0 z-50 w-full bg-black text-white'>
   <div className='flex items-center justify-between max-w-6xl lg:max-w-[72rem] xl:max-w-6xl px-4 py-6 mx-auto sm:px-6'>
         <div className='flex justify-start lg:w-0  transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer  '>
           <span className='sr-only'>Logo</span>
@@ -75,7 +75,7 @@ const NavMenu = () => {
             > */}
             {/* <div className=' transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer '> */}
             <span className=' opacity-100 hover:text-lightGreen dark:hover:text-lightGreen '>
-              LINGUATHON
+              Linguathon' 24
             </span>
             {/* </div> */}
             {/* </motion.a> */}
