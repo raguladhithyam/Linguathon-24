@@ -7,7 +7,7 @@ export const events = [
     "alias": "Fun with Cross Words",
     "image": VocabSonic,
     "aboutEvent": "Round 1 : Dive into audio quiz, Round 2: Solve crosswords based on puzzle",
-    "eventDetail": ["questions on spot"],
+    "eventDetail": ["1ST Prize -> Rs. 1500", " 2nd Prize -> Rs.1000"],
     "rules": [
       "The decision of the judges will be final.",
       "TEST test test TEST test test TEST"

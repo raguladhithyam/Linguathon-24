@@ -78,10 +78,10 @@ const EventDetails = () => {
                         </div>
                         <div className="md:p-10">
                             <h4 className='text-3xl font-bold  font-headings md:text-5xl'>
-                                Event Details.
+                                Prize Details.
                             </h4>                          <ul className="list-disc pl-4 mt-4">
                                 {event.eventDetail.map((item, index) => (
-                                    <li className='lg:p-2 text-justify lg:ml-10 ' key={index}>{item}</li>
+                                    <li className='lg:p-2 text-justify lg:ml-10 text-2xl' key={index}>{item}</li>
                                 ))}
                             </ul>
                         </div>

@@ -32,7 +32,7 @@ const About = () => {
                                         <Image
                                             src={lol}
                                             alt=""
-                                            className="h-[400px] rounded-2xl w-[400px]"
+                                            className="h-[300px] rounded-2xl w-[300px]"
                                         />
                                     </div>
                                 </div>
