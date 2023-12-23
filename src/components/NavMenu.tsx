@@ -29,7 +29,12 @@ export const navItems = [
   {
     href: '/email',
     text: 'Bulk Email',
+  },
+  {
+    href: '/updates',
+    text: 'Updates',
   }
+
   // {
   //   href: '/sponsors',
   //   text: 'Sponsors',
